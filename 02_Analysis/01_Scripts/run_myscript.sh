@@ -7,5 +7,5 @@
 #SBATCH --output=myjob%j.log   # Standard output and error log
 pwd; hostname; date
 
-module load R		# load R module
+module load R/4.1.2		# load R module with most recent R version
 Rscript 02_Analysis/01_Scripts/myscript.R		# run R script
