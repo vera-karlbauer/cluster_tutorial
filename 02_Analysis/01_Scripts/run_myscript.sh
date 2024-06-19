@@ -8,4 +8,4 @@
 pwd; hostname; date
 
 module load R		# load R module
-Rscript /02_Analysis/01_Scripts/myscript.R		# run R script
+Rscript 02_Analysis/01_Scripts/myscript.R		# run R script
